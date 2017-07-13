@@ -1,0 +1,67 @@
+<!-- prev desktop screen -->
+<keybind key="C-A-Left">
+    <action name="GoToDesktop">
+        <to>previous</to>
+        <wrap>yes</wrap>
+    </action>
+</keybind>
+
+<!-- next desktop screen -->
+<keybind key="C-A-Right">
+    <action name="GoToDesktop">
+        <to>next</to>
+        <wrap>yes</wrap>
+    </action>
+</keybind>
+
+<!-- Maximaze Window -->
+<keybind key="C-W-Up">
+      <action name="Maximize"/>
+</keybind>
+
+<!-- Back to normal Window -->
+<keybind key="C-W-Down">
+      <action name="Unmaximize"/>
+</keybind>
+
+<!--Left half screen  Window -->
+<keybind key="C-W-Left">
+      <action name="Move"/>
+</keybind>
+
+<!-- Right half screen Window -->
+<keybind key="C-W-Right">
+      <action name="Move"/>
+  </keybind>
+
+<!-- Move Window to Left desktop -->
+<keybind key="C-S-A-Left">
+    <action name="SendToDesktop">
+        <to>left</to>
+        <wrap>no</wrap>
+    </action>
+</keybind>
+
+<!-- Move Window to Right desktop -->
+<keybind key="C-S-A-Right">
+    <action name="SendToDesktop">
+        <to>right</to>
+        <wrap>no</wrap>
+    </action>
+</keybind>
+
+<!-- Move Window to Up desktop -->
+<keybind key="C-S-A-Up">
+    <action name="SendToDesktop">
+        <to>up</to>
+        <wrap>no</wrap>
+    </action>
+</keybind>
+
+<!-- Move Window to Down desktop -->
+<keybind key="C-S-A-Down">
+    <action name="SendToDesktop">
+        <to>down</to>
+        <wrap>no</wrap>
+    </action>
+</keybind>  
