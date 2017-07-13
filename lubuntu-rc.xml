@@ -253,6 +253,12 @@
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
+    <keybind key="C-W-Up">
+        <action name="Maximize"/>
+    </keybind>
+    <keybind key="C-W-Down">
+        <action name="Unmaximize"/>
+    </keybind>
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
